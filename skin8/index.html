@@ -1,0 +1,348 @@
+<!--@layout(/layout/basic/layout.html)-->
+<!--@js(/layout/basic/js/main.js)-->
+<!--@css(/layout/basic/css/main.css)-->
+<!--import(/smart-banner/shop1/smart-banner-admin-RES00016.html)-->
+<!--@import(/es/main/mainBanner.html)-->
+
+
+<section class="section main_product_list" data-ez-module="product-list/1" data-ez-layout="grid4" style="margin-bottom: 80px;" data-ez="contents-1ynfl4r-1">
+	<ez-prop data-version="1.0.0" type="layout">
+		<ez-var data-prop="layout" data-namespace="ez.module.product-list.layout" data-type="array">
+			<ez-item data-id="grid3" data-name="일반3단형(PC 3열/MOBILE 1열)"></ez-item>
+			<ez-item data-id="grid4" data-name="일반4단형(PC 4열/MOBILE 2열)"></ez-item>
+			<ez-item data-id="grid5" data-name="일반5단형(PC 5열/MOBILE 2열)"></ez-item>
+			<ez-item data-id="grid3 list_gallery" data-name="이미지강조3단형(PC 3열/MOBILE 1열)"></ez-item>
+			<ez-item data-id="grid4 list_gallery" data-name="이미지강조4단형(PC 4열/MOBILE 2열)"></ez-item>
+			<ez-item data-id="grid5 list_gallery" data-name="이미지강조5단형(PC 5열/MOBILE 2열)"></ez-item>
+		</ez-var>
+	</ez-prop>
+
+	<div class="main_title ez-align-center" data-ez-role="ez-align" data-ez-align="center"><!-- 이번주의 입고상품 타이틀 수정하는곳 -->
+		<div class="main_title_txt01" data-ez-role="title">New Product</div>
+		<div class="main_title_txt02" data-ez-role="subtitle">새롭게 입고된 신상품들을 만나보세요</div>
+	</div><!-- //main_title -->
+
+	<div data-ez-holder="product_listmain">
+		<div module="product_listmain_1" class="ec-base-product">
+			<!--
+				$count = 4
+				$basket_result = /product/add_basket.html
+				$basket_option = /product/basket_option.html
+				$moreview = yes
+				$cache = yes
+			-->
+			<ul class="prdList grid4" data-ez-role="layout ez-discount-tag">
+				<!--@import(/product/list_product.html)-->
+			</ul>
+		</div>
+		<div module="product_listmore_1" class="more">
+			<a href="#none" onclick="{$more_action}" class="btnMore">More +</a>
+		</div>
+	</div>
+</section>
+<section class="section main_image_text_gallery" data-ez-module="image-gallery/2" data-ez-role="style.background" data-ez-item-length="3" data-ez="contents-1oe6nys-1" style="margin-bottom: 120px;">
+	<ez-prop data-version="1.0.0" type="layout">
+		<ez-var data-prop="image" data-namespace="ez.module.image-gallery.image">
+			<ez-item data-id="size" data-pc="480 480" data-mobile="480 480"></ez-item>
+		</ez-var>
+		<ez-var data-prop="display" data-namespace="ez.module.image-gallery.display">
+			<ez-item data-id="item" data-max="10"></ez-item>
+			<ez-item data-id="column" data-default="3" data-min="1" data-max="5"></ez-item>
+		</ez-var>
+		<ez-var data-prop="layout" data-namespace="ez.module.image-gallery.layout">
+			<ez-item data-id="mobile" data-default="slide">
+				<ez-item data-id="options" data-type="array">
+					<ez-item data-id="slide" data-name="슬라이드"></ez-item>
+					<ez-item data-id="more" data-name="더보기"></ez-item>
+					<ez-item data-id="none" data-name="사용안함"></ez-item>
+				</ez-item>
+			</ez-item>
+		</ez-var>
+	</ez-prop>
+	<div class="main_title ez-align-center" data-ez-role="ez-align" data-ez-align="center"><!-- 라이프스타일 타이틀 수정하는곳 -->
+		<div class="main_title_txt01" data-ez-role="title">Welcome Kit</div>
+		<div class="main_title_txt02" data-ez-role="desc">쉐프의 첫 번째 레시피 (체험용/세트 상품)</div>
+	</div><!-- //main_title -->
+
+    <div class="main_3dan_banner ez-mobile-layout-slide" data-ez-role="ez-mobile-layout" data-ez-mobile-layout="slide"><!-- 메인 3단배너 수정하는곳 -->
+         <ul data-ez-role="image-list ez-column" class="ez-column-3" data-ez-column="3"><li data-ez-role="image-item ez-align">
+				<a data-ez-role="a" href="/product/MD%EC%88%98%EC%A0%95%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%9435/381/category/57/display/1/" target="_self">
+					<picture>
+						<source srcset="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/upload/ezst/image/ez-image-contents-1oe6nys-1-0xmxtk5-5.jpg?v=1781144117264" media="(max-width: 1024px)" data-ez-role="img-pc" data-ez-eb>
+						<img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/upload/ezst/image/ez-image-contents-1oe6nys-1-0xmxtk5-5.jpg?v=1781144117264" data-ez-role="img-mobile">
+					</picture>
+					<div class="main_3dan_banner_txt">
+						<div class="main_3dan_banner_txt01" data-ez-role="title" style="color: rgb(0, 0, 0);">ABC 활력파우더</div>
+						<div class="main_banner_more" data-ez-role="desc" style="color: rgb(136, 136, 136);">more view</div>
+					</div><!--//main_3dan_banner_txt-->
+				</a>
+            </li><li data-ez-role="image-item ez-align">
+				<a data-ez-role="a" href="/product/MD%EC%88%98%EC%A0%95%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%9446/392/category/58/display/1/" target="_self">
+					<picture>
+						<source srcset="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/upload/ezst/image/ez-image-contents-1oe6nys-1-00mrx6g-5.jpg?v=1781144155696" media="(max-width: 1024px)" data-ez-role="img-pc" data-ez-eb>
+						<img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/upload/ezst/image/ez-image-contents-1oe6nys-1-00mrx6g-5.jpg?v=1781144155696" data-ez-role="img-mobile">
+					</picture>
+					<div class="main_3dan_banner_txt">
+						<div class="main_3dan_banner_txt01" data-ez-role="title" style="color: rgb(0, 0, 0);">흑당고 대용량 앰플</div>
+						<div class="main_banner_more" data-ez-role="desc" style="color: rgb(136, 136, 136);">more view</div>
+					</div><!--//main_3dan_banner_txt-->
+				</a>
+            </li><li data-ez-role="image-item ez-align">
+				<a data-ez-role="a" href="/product/MD%EC%88%98%EC%A0%95%ED%95%B4%EC%A3%BC%EC%84%B8%EC%9A%9423/368/category/54/display/1/" target="_self">
+					<picture>
+						<source srcset="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/upload/ezst/image/ez-image-contents-1oe6nys-1-00pu39x-5.jpg?v=1781144144902" media="(max-width: 1024px)" data-ez-role="img-pc" data-ez-eb>
+						<img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/upload/ezst/image/ez-image-contents-1oe6nys-1-00pu39x-5.jpg?v=1781144144902" data-ez-role="img-mobile">
+					</picture>
+					<div class="main_3dan_banner_txt">
+						<div class="main_3dan_banner_txt01" data-ez-role="title" style="color: rgb(0, 0, 0);">코스메쉐프 흑백 앰플</div>
+						<div class="main_banner_more" data-ez-role="desc" style="color: rgb(136, 136, 136);">more view</div>
+					</div><!--//main_3dan_banner_txt-->
+				</a>
+            </li></ul>
+		<div class="main_image_text_gallery_more"><a href="#none" class="main_image_text_gallery_more_btn">더보기</a></div>
+	</div><!-- //main_3dan_banner -->
+</section>
+<section class="section main_product_category" data-ez-module="product-list-category/2" data-ez-layout="grid3_slide list_gallery" data-ez="contents-1di204i-1" style="margin-bottom: 120px;">
+	<ez-prop data-version="1.0.0" type="layout">
+		<ez-var data-prop="layout" data-namespace="ez.module.product-list-category.layout" data-type="array">
+			<ez-item data-id="grid3_slide" data-name="일반3단형(PC 3열/MOBILE 2열)"></ez-item>
+			<ez-item data-id="grid4_slide" data-name="일반4단형(PC 4열/MOBILE 2열)"></ez-item>
+			<ez-item data-id="grid5_slide" data-name="일반5단형(PC 5열/MOBILE 3열)"></ez-item>
+    		<ez-item data-id="grid3_slide list_gallery" data-name="이미지강조3단형(PC 3열/MOBILE 2열)"></ez-item>
+			<ez-item data-id="grid4_slide list_gallery" data-name="이미지강조4단형(PC 4열/MOBILE 2열)"></ez-item>
+			<ez-item data-id="grid5_slide list_gallery" data-name="이미지강조5단형(PC 5열/MOBILE 3열)"></ez-item>
+		</ez-var>
+	</ez-prop>
+	<div class="main_product_inner">
+		<div class="main_title ez-align-center" data-ez-role="ez-align" data-ez-align="center"><!-- 에디터가 직접 선정한 트랜드픽 타이틀 수정하는곳 -->
+			<div class="main_title_txt01" data-ez-role="title">Best Selection</div>
+			<div class="main_title_txt02" data-ez-role="subtitle">고객님들이 셀렉한 베스트 아이템</div>
+		</div><!-- //main_title -->
+
+		<ul class="main_product_tab" data-ez-role="tab-list">
+			<li data-ez-role="tab-item"><button type="button" class="button" data-id="tabContent1" data-ez-role="name" data-name="새로운 카테고리">새로운 카테고리</button></li>
+			<li data-ez-role="tab-item"><button type="button" class="button" data-id="tabContent2" data-ez-role="name" data-name="새로운 카테고리">새로운 카테고리</button></li>
+			<li data-ez-role="tab-item"><button type="button" class="button" data-id="tabContent3" data-ez-role="name" data-name="새로운 카테고리">새로운 카테고리</button></li>
+			<li data-ez-role="tab-item"><button type="button" class="button" data-id="tabContent4" data-ez-role="name" data-name="새로운 카테고리">새로운 카테고리</button></li>
+		</ul><!-- //main_product_tab -->
+	</div><!-- //main_product_inner -->
+
+	<div class="content_list" data-ez-role="content-list">
+		<div class="tabcontent" id="tabContent1" data-ez-role="content-item">
+			<div data-ez-holder="product_listmain">
+				<div module="product_listmain_1" class="ec-base-product swiper-container swiper03">
+					<!--
+						$count = 100
+						$basket_result = /product/add_basket.html
+						$basket_option = /product/basket_option.html
+						$moreview = no
+						$cache = no
+					-->
+					<ul class="prdList swiper-wrapper grid3_slide list_gallery" data-ez-role="layout ez-discount-tag">
+						<!--@import(/product/list_product_slide.html)-->
+					</ul>
+					<div class="swiper-scrollbar swiper-scrollbar_swiper03"></div>
+				</div>
+			</div>
+		</div><!-- //tabContent1 -->
+
+		<div class="tabcontent" id="tabContent2" data-ez-role="content-item">
+			<div data-ez-holder="product_listmain">
+				<div module="product_listmain_2" class="ec-base-product swiper-container swiper03">
+					<!--
+						$count = 100
+						$basket_result = /product/add_basket.html
+						$basket_option = /product/basket_option.html
+						$moreview = no
+						$cache = no
+					-->
+					<ul class="prdList swiper-wrapper grid3_slide list_gallery" data-ez-role="layout ez-discount-tag">
+						<!--@import(/product/list_product_slide.html)-->
+					</ul>
+					<div class="swiper-scrollbar swiper-scrollbar_swiper03"></div>
+				</div>
+			</div>
+		</div><!-- //tabContent2 -->
+
+		<div class="tabcontent" id="tabContent3" data-ez-role="content-item">
+			<div data-ez-holder="product_listmain">
+				<div module="product_listmain_3" class="ec-base-product swiper-container swiper03">
+					<!--
+						$count = 100
+						$basket_result = /product/add_basket.html
+						$basket_option = /product/basket_option.html
+						$moreview = no
+						$cache = no
+					-->
+					<ul class="prdList swiper-wrapper grid3_slide list_gallery" data-ez-role="layout ez-discount-tag">
+						<!--@import(/product/list_product_slide.html)-->
+					</ul>
+					<div class="swiper-scrollbar swiper-scrollbar_swiper03"></div>
+				</div>
+			</div>
+		</div><!-- //tabContent3 -->
+
+		<div class="tabcontent" id="tabContent4" data-ez-role="content-item">
+			<div data-ez-holder="product_listmain">
+				<div module="product_listmain_4" class="ec-base-product swiper-container swiper03">
+					<!--
+						$count = 100
+						$basket_result = /product/add_basket.html
+						$basket_option = /product/basket_option.html
+						$moreview = no
+						$cache = no
+					-->
+					<ul class="prdList swiper-wrapper grid3_slide list_gallery" data-ez-role="layout ez-discount-tag">
+						<!--@import(/product/list_product_slide.html)-->
+					</ul>
+					<div class="swiper-scrollbar swiper-scrollbar_swiper03"></div>
+				</div>
+			</div>
+		</div><!-- //tabContent4 -->
+	</div><!-- //content_list -->
+    
+</section>
+<!--@import(/smart-banner/shop1/smart-banner-admin-RES00017.html)-->
+<section class="section main_product_slide" data-ez-module="product-list-slide/2" data-ez-layout="grid4_slide list_gallery" data-ez="contents-0d30o28-1" style="margin-bottom: 30px;">
+
+
+	<div class="main_title ez-align-center" data-ez-role="ez-align" data-ez-align="center"><!-- 위클리하이라이트 타이틀 수정하는곳 -->
+		<div class="main_title_txt01" data-ez-role="title">Weekly Highlight</div>
+		<div class="main_title_txt02" data-ez-role="subtitle">이번 주 핫하게 뜨고 있는 제품</div>
+	</div><!-- //main_title -->
+
+	<div data-ez-holder="product_listmain">
+		<div module="product_listmain_1" class="ec-base-product swiper-container highlight_slide">
+			<ul class="swiper-wrapper prdList grid4_slide list_gallery" data-ez-role="layout ez-discount-tag">
+				<!--@import(/product/list_product_slide.html)-->
+			</ul>
+
+			<div class="swiper-pagination swiper-pagination-highlight_product"></div>
+		</div>
+                 <div module="product_listmore_1" class="more">
+			<a href="#none" onclick="{$more_action}" class="btnMore">More +</a>
+		</div>
+	</div>
+	<div class="swiper-prev swiper-prev-highlight_product"></div>
+	<div class="swiper-next swiper-next-highlight_product"></div>
+</section>
+<section class="section mw-100 w-100 mb-5 main_text ez-textsize-small ez-align-center" 
+         data-ez-module="text/1" 
+         data-ez-role="style.background" 
+         data-ez-align="center" 
+         data-ez-textsize="small" 
+         style="background-color: #69826c" 
+         data-ez="contents-0en6li0-1">
+  <style>
+      #liveshop img{
+         max-width:500px;
+         width:80%;
+      }
+      </style>
+   
+    <div class=" py-3 py-md-3" id="liveshop"> 
+        <div class="main_text_txt d-flex justify-content-center py-lg-4 py-3 bg-active">
+            
+           <img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/main/img/LIVE01-1.png" >
+            <!--<p class="mb-0"><span style="white-space:pre-wrap;">무료 배송 서비스의 혜택을 받아보세요.</span></p>
+            <div class="main_text_txt01 h3 font-weight-bold" data-ez-role="title" style="color: #ffffff; font-size: 2.5rem;">라이브 커머스</div>
+            <div class="main_text_txt02 mt-0" data-ez-role="desc" style="color: #ffffff;">
+                <p class="mb-0"><span style="white-space:pre-wrap;">소통하고 즐기는 온라인 쇼핑</span></p>
+            </div>-->
+        </div>
+    </div>
+</section>
+   	 <section class="py-5 my-5" style="margin: 0 auto 0px; padding-top: 0;">
+            <div class="container position-relative">
+ 
+                    <div id="swiper-multi" class="swiper px-5">
+                        <div class="swiper-wrapper overflow-hidden">
+                            <div class="swiper-slide d-flex align-items-center justify-content-center"> 
+                                <img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/main/img/LIVE01.png" alt="흑당고와 약재 재료"></div>
+                            <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                <img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/main/img/LIVE02.png" alt="흑당고와 약재 재료"></div>
+                            <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                <img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/main/img/LIVE03.png" alt="흑당고와 약재 재료"></div>
+                            <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                <img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/main/img/LIVE04.png" alt="흑당고와 약재 재료"></div>
+                            <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                <img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/main/img/LIVE05.png" alt="흑당고와 약재 재료"></div>
+                            <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                <img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/main/img/LIVE06.png" alt="흑당고와 약재 재료"></div>
+                            <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                <img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/main/img/LIVE07.png" alt="흑당고와 약재 재료"></div>
+                            <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                <img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/main/img/LIVE08.png" alt="흑당고와 약재 재료"></div>
+                            <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                <img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/main/img/LIVE09.png" alt="흑당고와 약재 재료"></div>
+                            <div class="swiper-slide d-flex align-items-center justify-content-center">
+                                <img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/main/img/LIVE10.png" alt="흑당고와 약재 재료"></div>
+                        </div>
+                        
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+		</section>
+
+<section class="section mw-100 w-100 mb-5 main_text ez-textsize-small ez-align-center" 
+         data-ez-module="text/1" 
+         data-ez-role="style.background" 
+         data-ez-align="center" 
+         data-ez-textsize="small" 
+         style="background-color: #f1ccb9;" 
+         data-ez="contents-0en6li0-1">
+    
+ <style>
+      #liveshop2 img {
+          max-width: 350px;
+          width: 100%;
+          height: auto;
+      }
+  </style>
+   
+    <div class=" py-2 py-md-2" id="liveshop2"> 
+        <div class="main_text_txt d-flex justify-content-center py-lg-4 py-3 bg-active">
+            
+           <img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/main/img/LIVE01-2.png" >
+            <!--<p class="mb-0"><span style="white-space:pre-wrap;">무료 배송 서비스의 혜택을 받아보세요.</span></p>
+            <div class="main_text_txt01 h3 font-weight-bold" data-ez-role="title" style="color: #ffffff; font-size: 2.5rem;">라이브 커머스</div>
+            <div class="main_text_txt02 mt-0" data-ez-role="desc" style="color: #ffffff;">
+                <p class="mb-0"><span style="white-space:pre-wrap;">소통하고 즐기는 온라인 쇼핑</span></p>
+            </div>-->
+        </div>
+    </div>
+</section>
+
+<section class="section main_product_list" data-ez-module="product-list/1" data-ez-layout="grid4" style="margin-bottom: 80px;" data-ez="contents-1ynfl4r-1">
+	<ez-prop data-version="1.0.0" type="layout">
+		<ez-var data-prop="layout" data-namespace="ez.module.product-list.layout" data-type="array">
+			<ez-item data-id="grid3" data-name="일반3단형(PC 3열/MOBILE 1열)"></ez-item>
+			<ez-item data-id="grid4" data-name="일반4단형(PC 4열/MOBILE 2열)"></ez-item>
+			<ez-item data-id="grid5" data-name="일반5단형(PC 5열/MOBILE 2열)"></ez-item>
+			<ez-item data-id="grid3 list_gallery" data-name="이미지강조3단형(PC 3열/MOBILE 1열)"></ez-item>
+			<ez-item data-id="grid4 list_gallery" data-name="이미지강조4단형(PC 4열/MOBILE 2열)"></ez-item>
+			<ez-item data-id="grid5 list_gallery" data-name="이미지강조5단형(PC 5열/MOBILE 2열)"></ez-item>
+		</ez-var>
+	</ez-prop>
+
+	<div data-ez-holder="product_listmain">
+		<div data-ez-holder="product_listmain">
+   <div data-ez-holder="product_listmain">
+   
+    <div module="product_listmain_1" class="ec-base-product my-custom-product-list">
+    <ul class="prdList grid4" data-ez-role="layout ez-discount-tag">
+        <!--@import(/product/list_product.html)-->
+    </ul>
+</div>
+</div>
+</div>
+        
+		<div module="product_listmore_1" class="more">
+			<a href="#none" onclick="{$more_action}" class="btnMore">More +</a>
+		</div>
+	</div>
+</section>
+
+<!--@define(cmc_log)-->
+<!--#ez="1/7"-->

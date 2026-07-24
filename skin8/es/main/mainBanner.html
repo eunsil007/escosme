@@ -1,0 +1,47 @@
+<div class='swiper-container main_product_list mw-100 w-100' id="heroSection">
+    <div class='swiper-wrapper'>
+        <div class="swiper-slide d-flex justify-content-center">
+          <img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/upload/1.jpg" class='d-block img-fluid' >
+        </div>
+       <div class="swiper-slide  d-flex justify-content-center">
+          <img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/upload/w.gif" class='d-block  img-fluid'>
+        </div>
+        <div class="swiper-slide  d-flex justify-content-center">
+          <img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/upload/top09.jpg" class='d-block  img-fluid'>
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+<style>    
+    #eunsil  .swiper-pagination{
+        bottom:20px;
+    }
+    
+    #eunsil .swiper-pagination-bullet{
+        width:10px;
+        height:10px;
+        
+    }
+    #eunsil .swiper-pagination-bullet.swiper-pagination-bullet-active{
+       background : black;
+    }
+</style>
+<script>
+    
+document.addEventListener('DOMContentLoaded', () => {
+  const swiperBanner = new Swiper('#heroSection.swiper-container', {
+    loop: true,
+    // 4초마다 자동 롤링 설정
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false, // 사용자 클릭 후에도 자동 재생 유지
+    },
+    pagination: {
+      el: '#heroSection .swiper-pagination',
+      clickable: true, // 페이지네이션 클릭 가능하게 설정
+    },
+  });
+});
+ 
+</script>
+

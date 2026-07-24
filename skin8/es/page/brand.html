@@ -1,0 +1,43 @@
+<!--@layout(/layout/basic/layout.html)-->
+
+<div module="Layout_Dummy">
+<!-- Swiper 라이브러리 연동 (반드시 상단에 필요) -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<style>
+    .cosme-chef-container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 50px 0; }
+    .brand-story { text-align: center; margin-bottom: 60px; }
+    .story-image { width: 100%; margin-bottom: 20px; }
+    .swiper-slide img { width: 100%; height: 300px; object-fit: cover; }
+</style>
+
+<div class="cosme-chef-container">
+    <!-- 브랜드 스토리 섹션 -->
+    <div class="brand-story">
+        <img src="YOUR_IMAGE_URL_HERE" alt="브랜드 스토리 이미지" class="story-image">
+        <h2>정성(精誠)이 주는 감동</h2>
+        <p>코스메쉐프는 자연의 진정 재료를 발굴하기 위해 시간을 들이고 공을 들입니다.</p>
+    </div>
+
+    <!-- 무한 수평 스크롤 영역 -->
+    <div class="swiper myStorySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="IMAGE_1.jpg" alt="원료"></div>
+            <div class="swiper-slide"><img src="IMAGE_2.jpg" alt="공정"></div>
+            <div class="swiper-slide"><img src="IMAGE_3.jpg" alt="완성"></div>
+            <div class="swiper-slide"><img src="IMAGE_4.jpg" alt="체험"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Swiper JS Script -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".myStorySwiper", {
+        slidesPerView: 4,
+        spaceBetween: 20,
+        loop: true,
+        autoplay: { delay: 0, disableOnInteraction: false },
+        speed: 3000
+    });
+</script></div>

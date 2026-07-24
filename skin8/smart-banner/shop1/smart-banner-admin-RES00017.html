@@ -1,0 +1,74 @@
+
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<style>
+  .slide-section {
+    width: 100%;
+    padding: 80px 0;
+    /* 전체 배경 이미지 */
+    background-image: url('https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/upload/brand/brand_bg03.png');
+    background-size: cover;
+    background-position: center;
+  }
+  .swiper-container { width: 100%; height: auto; }
+  .swiper-slide { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 250px; /* 슬라이드 하나당 너비 */
+  }
+  .swiper-slide img { width: 100%; border-radius: 10px; }
+</style>
+
+<section class="slide-section">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide d-flex align-items-center justify-content-center">
+        <img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/upload/brand/brand_bg03_01.png" alt="흑당고 제품과 원료">
+      </div>
+      <div class="swiper-slide d-flex align-items-center justify-content-center">
+        <img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/upload/brand/brand_bg03_02.png" alt="전통 제조 공정">
+      </div>
+      <div class="swiper-slide d-flex align-items-center justify-content-center">
+        <img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/upload/brand/brand_bg03_03.png" alt="약재 추출 과정">
+      </div>
+      <div class="swiper-slide d-flex align-items-center justify-content-center">
+        <img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/upload/brand/brand_bg03_04.png" alt="완성된 제품 용기">
+      </div>
+      <div class="swiper-slide d-flex align-items-center justify-content-center">
+        <img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/upload/brand/brand_bg03_05.png" alt="제조 추출 과정">
+      </div>
+      <div class="swiper-slide d-flex align-items-center justify-content-center">
+        <img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/upload/brand/brand_bg03_06.png" alt="흑당고를 즐기는 모델">
+      </div>
+      <div class="swiper-slide d-flex align-items-center justify-content-center">
+        <img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/upload/brand/brand_bg03_07.png" alt="흑당고와 약재 재료">
+      </div>
+      <div class="swiper-slide d-flex align-items-center justify-content-center">
+        <img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/upload/brand/brand_bg03_08.png" alt="다양한 천연 약재">
+      </div>
+      <div class="swiper-slide d-flex align-items-center justify-content-center">
+        <img src="https://ecimg.cafe24img.com/pg3015b63811984028/escosme/web/upload/brand/brand_bg03_09.png" alt="전통 달임 방식">
+      </div>
+    </div>
+  </div>
+</section>
+<style>    
+    #eunsil  .slide-section{
+        margin: 0 auto 120px;
+    }
+    
+</style>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: "auto", // 화면에 보이는 개수 자동
+    spaceBetween: 20,      // 이미지 사이 간격
+    loop: true,            // 무한 반복
+    autoplay: {
+      delay: 2500,         // 2.5초마다 이동
+      disableOnInteraction: false,
+    },
+  });
+</script>
